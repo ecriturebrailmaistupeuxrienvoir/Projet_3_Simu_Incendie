@@ -22,24 +22,24 @@ Etapes de développement:
 
 ### V0: Création de la boucle basique (MVP):
 
-Création de classes pour les différentes cases:
--Bord: case immuable, constituant les bords du terrain
--Route: case de terrain, inflammable
--Champs: case inflammable, et qui propage le feu
+Création de classes pour les différentes cases:  
+-Bord: case immuable, constituant les bords du terrain  
+-Route: case de terrain, inflammable  
+-Champs: case inflammable, et qui propage le feu  
 
-Comportement du feu:
--Propagation du feu d'une case inflammable à une autre
--Extinction du feu sur une case qui brûle assez longtemps
+Comportement du feu:  
+-Propagation du feu d'une case inflammable à une autre  
+-Extinction du feu sur une case qui brûle assez longtemps  
 
 ### V1 : 
 Ajout de l'hérédité lors de l'instanciation des cases
 
-Ajout de nouvelles classes :
+Ajout de nouvelles classes :  
 -Forêt: case inflammable, qui prends plus de temps à brûle et s'inflamme plus lentement
 
-Comportement du feu:
--Ajout du vent, qui influe sur la propagation du feu
+Comportement du feu:  
+-Ajout du vent, qui influe sur la propagation du feu  
 -Ajout des brandons, qui permettent d'enflammer des cases non adjaceantes.
 
-### V2 :
+### V2 :  
 Transformation des cases du terrain en hexagones
