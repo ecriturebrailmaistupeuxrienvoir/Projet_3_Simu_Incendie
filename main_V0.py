@@ -76,6 +76,7 @@ def get_adj(x : int, y : int ) -> list :
     adj.append(plateau[x][y-1])
     adj.append(plateau[x][y+1])
     adj.append(plateau[x+1][y-1])
+    adj.append(plateau[x+1][y])
     adj.append(plateau[x+1][y+1])
 
 plateau = [[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], #initialisation de la matrice permettant la création du plateau
