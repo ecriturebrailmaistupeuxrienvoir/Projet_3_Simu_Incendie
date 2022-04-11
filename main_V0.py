@@ -35,9 +35,12 @@ class Champs :
         self.color = (0, 86, 27)
         self.infla = True
         self.etat = "eteint"
-        self.adjacents = [get_adj(self.x, self.y)]
+        self.adjacents = []
     
     def main(self, display) :
+        
+        self.adjacents = [get_adj(self.x, self.y)]
+        
         if self.etat == "brule" :
             for i in self.adjacents :
                 if self.adjacents[i].infla :
